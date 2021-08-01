@@ -1,0 +1,27 @@
+$color-black:#000;
+$color-white:#fff;
+$color-gray:#8d8d8d;
+$color-blue:#4267b2;
+
+$header-height:70px;
+$header-tablet-height:60px;
+$header-mobile-height:40px;
+
+$box-shadow: rgba(149,157,165,0.2) 0px 8px 24px;
+
+@mixin mobile {
+    @media screen and (max-width:576px){
+        @content;
+        
+    }
+}
+@mixin tablet {
+    @media screen and (max-width:768px){
+        @content;
+    }
+}
+@mixin medium {
+    @media screen and (max-width:992px){
+        @content;
+    }
+}

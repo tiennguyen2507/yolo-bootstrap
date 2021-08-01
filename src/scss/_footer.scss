@@ -1,0 +1,84 @@
+.footer{
+    width: 100%;
+    background: $color-white;
+    padding: 10px 0px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+    &__row{
+        &__col01{
+            padding: 5px;
+            text-align: center;
+            &__title{
+                padding: 10px 0px;
+                p{
+                    font-size: 1.75rem;
+                    margin-bottom: 0px;
+                }
+            }
+            &__content{
+                    p{
+                        color: black;
+                        margin-bottom: 0px;       
+                        padding-bottom: 5px
+                    };
+            }
+           
+        }
+        &__col02{
+            padding: 5px;
+            text-align: center;
+            &__title{
+                padding: 10px 0px;
+                p{
+                    font-size: 1.75rem;
+                    margin-bottom: 0px;
+                }
+            }
+            &__content{
+                a{
+                   
+                    p{
+                        &:hover{
+                            color: $color-blue;
+                        }
+                        color: black;
+                        margin-bottom: 0px;  
+                        padding-bottom: 5px     
+                    };
+                };
+            }
+        }
+        &__col03{
+            padding: 5px;
+            text-align: center;
+            &__title{
+                padding: 10px 0px;
+                p{
+                    font-size: 1.75rem;
+                    margin-bottom: 0px;
+                }
+            }
+            &__content{
+                a{
+                   
+                    p{
+                        &:hover{
+                            color: $color-blue;
+                        }
+                        color: black;
+                        margin-bottom: 0px;  
+                        padding-bottom: 5px     
+                    };
+                };
+            }
+        }
+        &__col04{
+            padding: 5px;
+            text-align: center;
+            &__logo{
+                    height: 38px;
+                    padding: 10px 0px;
+            }
+        }
+    }
+}

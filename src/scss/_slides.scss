@@ -1,0 +1,106 @@
+.slides {
+    padding: 10px 0px;
+    height: 100%;
+    transition: 1s;
+    // &__container {
+    //     // box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    // }
+    &:hover .slides__col {
+        transform: translateX(-500%);
+        transition: 1s ease;
+    }
+    .slides__row {
+        position: relative;
+        display: flex;
+        overflow: hidden;
+        transition: 1s;
+       
+            &__button__left {
+                position: absolute;
+                top: 50%;
+                left: 0px;
+                i {
+                    font-size: 3rem;
+                }
+            }
+            &__button__right {
+                position: absolute;
+                top: 50%;
+                right: 0px;
+                i {
+                    font-size: 3rem;
+                }
+            }
+       
+    }
+
+    .slides__col {
+        padding: 20px;
+        width: 30%;
+        transition: 1s;
+    }
+    &__title {
+        text-align: center;
+        h1 {
+            padding: 10px;
+            font-size: 2.5rem;
+            margin-bottom: 0px;
+        }
+    }
+    &__item {
+        &:hover .slides__item__image__01 {
+            transform: translateX(-100%);
+            transition: 0.5s ease;
+        }
+        &:hover .slides__item__image__02 {
+            transform: translateX(-100%);
+            transition: 0.5s ease;
+        }
+        padding: 10px;
+        &__image {
+            width: 100%;
+            overflow: hidden;
+            display: inline-flex;
+
+            img {
+                width: 100%;
+                padding: 10px;
+                transition: 0.5s;
+            }
+        }
+        &__name {
+            text-align: center;
+            padding: 10px;
+            h1 {
+                font-size: 2rem;
+                margin-bottom: 0px;
+            }
+        }
+        &__price {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin-bottom: 10px;
+            h1 {
+                margin-bottom: 0px;
+                font-size: 1.5rem;
+                color: red;
+            }
+            p {
+                margin-bottom: 0px;
+                text-decoration: line-through;
+            }
+        }
+        &__button {
+            margin: 5px;
+            text-align: center;
+            button {
+                width: 150px;
+                height: 50px;
+                background: $color-blue;
+                color: white;
+                font-size: 1.5rem;
+            }
+        }
+    }
+}

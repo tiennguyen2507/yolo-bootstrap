@@ -1,0 +1,37 @@
+.policyCart{
+    margin: 30px 0px;
+    &__row{
+        
+        &__col{
+            padding: 5px 10px;
+            &__shadow{
+                &:hover{
+                    transform: translateY(-10px);
+                    transition:  0.3s;
+                }
+                padding: 10px 0px;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                display: flex;
+                align-items: center;
+                // justify-content: center;
+                &__icon{
+                    i{
+                        font-size: 3rem;
+                        padding: 10px;
+                    }
+                }
+                &__title{
+                    h1{
+                        font-size: 1.25rem;
+                    }
+                    p{
+                        margin-bottom: 0px;
+    
+                    }
+                }
+
+            }
+           
+        }
+    }
+}
