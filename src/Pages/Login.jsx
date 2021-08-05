@@ -2,10 +2,13 @@ import React from 'react'
 import { Link, Switch, Route } from 'react-router-dom'
 import PageLogin from './Login/PageLogin'
 import PageRegistration from './Login/PageRegistration'
+import Alert from '../components/Alert'
 
 
 const Login = () => {
+    document.title='Đăng nhập'
     return (
+
         <div className='login'>
             <ul>
                 <Link to='/login'>
@@ -23,6 +26,8 @@ const Login = () => {
                 <Route path='/login' exact component={PageLogin} />
                 <Route path='/login/pageregistration' component={PageRegistration} />
             </Switch>
+            
+            
 
         </div>
     )

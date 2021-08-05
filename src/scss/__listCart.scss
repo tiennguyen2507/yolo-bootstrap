@@ -1,0 +1,57 @@
+.listCart{
+    width: 100%;
+    &__table{
+        width: 100%;
+    }
+    &__title{
+        display: flex;
+        align-items: center;
+        img{
+            width:70px;
+        }
+    }
+    &__amout{
+        p{
+            font-size: 1.5rem;
+            
+        }
+        div{
+            display: flex;
+            align-items: center;
+            
+            input{
+                text-align: center;
+                width: 60px;
+                height: 30px;
+                font-size: 1.25rem;
+                border-top:1px solid gray; 
+                border-bottom:1px solid gray; ;
+            }
+            i{
+                color: grey;
+                width: 30px;
+                height: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: 1px solid gray;
+                font-size: 1.25rem;
+                &:hover{
+                    font-size: 1.5rem;
+                }
+            }
+
+        }
+    }
+    &__price{
+        h1{
+            font-size: 2rem;
+        }
+    }
+    &__bin{
+        font-size: 1.75rem;
+        i{
+            padding-right: 10px;
+        }
+    }
+}

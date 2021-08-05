@@ -6,6 +6,7 @@ import ProductCart from './Homes/ProductCart'
 import Slides from './Homes/Slides'
 
 const Home = () => {
+    document.title='Trang chủ'
     return (
         <div>
             <HeroSlider />

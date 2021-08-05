@@ -20,6 +20,13 @@ ul{
 }
 a{
     text-decoration: none;
+    margin-bottom: 0px;
+}
+h1{
+    margin-bottom: 0px;
+}
+p{
+    margin-bottom: 0px;
 }
 .main{
     width: 100%;
@@ -28,4 +35,28 @@ a{
     padding-bottom: 30px;
     min-height: 100vh;
    
+}
+.bg-red{
+    background-color: rgb(231, 17, 17);
+}
+.bg-blue{
+    background-color: rgb(15, 29, 219);
+}
+.bg-yellow{
+    background-color: rgb(230, 215, 15);
+}
+.bg-gray{
+    background-color: rgb(153, 153, 153);
+}
+.bg-black{
+    background-color: rgb(0, 0, 0);
+}
+.bg-orange{
+    background-color: rgb(255, 127, 7);
+}
+.bg-white{
+    background-color: rgb(255, 255, 255);
+}
+.bg-pink{
+    background-color: rgb(179, 49, 146);
 }

@@ -25,11 +25,11 @@ const Header = () => {
                                 <Link to='/' >
                                     <p>Trang chủ</p>
                                 </Link>
-                                <Link to='/catalog'  >
+                                <Link to='/product'  >
                                     <p>Sản Phẩm</p>
                                 </Link>
-                                <Link to='/cart' >
-                                    <p>Phụ kiện</p>
+                                <Link to='/voucher' >
+                                    <p>Khuyến mãi</p>
                                 </Link>
                                 <Link to='/about' >
                                     <p>liên hệ</p>
@@ -49,7 +49,7 @@ const Header = () => {
                                 <i className="header__menu__item bx bx-search" />
                             </Link>
 
-                            <Link to='/cart'>
+                            <Link to= '/cart'>
                                 <i className="header__menu__item bx bx-shopping-bag" />
                             </Link>
                             <Link to='/login'>

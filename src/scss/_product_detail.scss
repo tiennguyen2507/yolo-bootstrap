@@ -1,0 +1,32 @@
+.product__detail{
+    margin-top: 30px;
+    &__title{
+        border-bottom: 1px solid gray;
+        p{
+            font-size: 1.5rem;
+            border-bottom: 1px solid gray;
+
+        }
+       
+    }
+    &__explain{
+        strong{
+            font-size: 1.25rem;
+            padding: 10px;
+        }
+        h1{
+            font-size: 1.75rem;
+            padding: 10px;
+        }
+        h2{
+            font-size: 1.5rem;
+            padding: 10px;
+        }
+        p{
+            font-size: 1.25rem;
+            padding: 10px;
+        
+        }
+        
+    }
+}

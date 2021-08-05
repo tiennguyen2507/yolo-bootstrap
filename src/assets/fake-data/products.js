@@ -37,6 +37,7 @@ const product_12_image_02 = require('../images/products/product-12 (2).jpg').def
 
 const products = [
     {
+        id: 101,
         title: "Áo thun Dinosaur 01",
         price: '189000',
         image01: product_01_image_01,
@@ -44,9 +45,11 @@ const products = [
         categorySlug: "ao-thun",
         colors: ["white", "red", "orange"],
         slug: "ao-thun-dinosaur-01",
-        size: ["s", "m", "l", "xl"]
+        size: ["s", "m", "l", "xl"],
+        path: "/product/detail-01"
     },
     {
+        id: 102,
         title: "Áo thun Dinosaur 02",
         price: '159000',
         image01: product_02_image_01,
@@ -54,9 +57,11 @@ const products = [
         categorySlug: "ao-thun",
         colors: ["white", "red", "blue"],
         slug: "ao-thun-dinosaur-02",
-        size: ["s", "m"]
+        size: ["s", "m"],
+        path: "/product/detail-02"
     },
     {
+        id: 103,
         title: "Áo thun Dinosaur 03",
         price: '190000',
         image01: product_03_image_01,
@@ -64,9 +69,11 @@ const products = [
         categorySlug: "ao-thun",
         colors: ["white", "red", "orange", "yellow"],
         slug: "ao-thun-dinosaur-03",
-        size: ["m"]
+        size: ["m"],
+        path: "/product/detail-03"
     },
     {
+        id: 104,
         title: "Áo thun Polo 04",
         price: '194000',
         image01: product_04_image_01,
@@ -74,9 +81,11 @@ const products = [
         categorySlug: "ao-thun",
         colors: ["white", "orange", "blue"],
         slug: "ao-thun-polo-04",
-        size: ["xl"]
+        size: ["xl"],
+        path: "/product/detail-04"
     },
     {
+        id: 105,
         title: "Áo thun Polo 05",
         price: '194000',
         image01: product_05_image_01,
@@ -84,9 +93,11 @@ const products = [
         categorySlug: "ao-thun",
         colors: ["white", "pink"],
         slug: "ao-thun-polo-05",
-        size: ["xxl"]
+        size: ["xxl"],
+        path: "/product/detail-05"
     },
     {
+        id: 105,
         title: "Áo thun Polo 06",
         price: '194000',
         image01: product_06_image_01,
@@ -94,9 +105,11 @@ const products = [
         categorySlug: "ao-thun",
         colors: ["black"],
         slug: "ao-thun-polo-06",
-        size: ["s", "m", "xl"]
+        size: ["s", "m", "xl"],
+        path: "/product/detail-06"
     },
     {
+        id: 107,
         title: "Áo somi caro 07",
         price: '194000',
         image01: product_07_image_01,
@@ -104,9 +117,11 @@ const products = [
         categorySlug: "ao-somi",
         colors: ["white", "red", "orange", "blue"],
         slug: "ao-somi-caro-07",
-        size: ["l", "xl"]
+        size: ["l", "xl"],
+        path: "/product/detail-07"
     },
     {
+        id: 107,
         title: "Áo somi dài tay 08",
         price: '194000',
         image01: product_08_image_01,
@@ -114,9 +129,11 @@ const products = [
         categorySlug: "ao-somi",
         colors: ["white", "red", "black"],
         slug: "ao-somi-dai-tay-08",
-        size: ["s", "m", "xl"]
+        size: ["s", "m", "xl"],
+        path: "/product/detail-08"
     },
     {
+        id: 109,
         title: "Áo somi tay dài 09",
         price: '194000',
         image01: product_09_image_01,
@@ -124,9 +141,11 @@ const products = [
         categorySlug: "ao-somi",
         colors: ["white", "blue"],
         slug: "ao-somi-tay-dai-09",
-        size: ["m"]
+        size: ["m"],
+        path: "/product/detail-09"
     },
     {
+        id: 110,
         title: "Quần jean phong cách 10",
         price: '194000',
         image01: product_10_image_01,
@@ -134,9 +153,11 @@ const products = [
         categorySlug: "quan-jean",
         colors: ["blue", "black"],
         slug: "quan-jean-phong-cach-10",
-        size: ["l"]
+        size: ["l"],
+        path: "/product/detail-10"
     },
     {
+        id: 111,
         title: "Quần jean 11",
         price: '194000',
         image01: product_11_image_01,
@@ -144,9 +165,11 @@ const products = [
         categorySlug: "quan-jean",
         colors: ["blue", "black"],
         slug: "quan-jean-11",
-        size: ["s", "m", "xl"]
+        size: ["s", "m", "xl"],
+        path: "/product/detail-11"
     },
     {
+        id: 112,
         title: "Quần jean 12",
         price: '194000',
         image01: product_12_image_01,
@@ -155,8 +178,11 @@ const products = [
         colors: ["blue"],
         slug: "quan-jean-12",
         size: ["s", "m", "xl"]
+        ,
+        path: "/product/detail-12"
     },
     {
+        id: 113,
         title: "Áo thun Dinosaur 13",
         price: '189000',
         image01: product_01_image_01,
@@ -165,8 +191,11 @@ const products = [
         colors: ["white", "red"],
         slug: "ao-thun-dinosaur-13",
         size: ["s", "m", "xl"]
+        ,
+        path: "/product/detail-13"
     },
     {
+        id: 114,
         title: "Áo thun Dinosaur 14",
         price: '159000',
         image01: product_02_image_01,
@@ -174,9 +203,11 @@ const products = [
         categorySlug: "ao-thun",
         colors: ["white", "blue"],
         slug: "ao-thun-dinosaur-14",
-        size: ["s", "m"]
+        size: ["s", "m"],
+        path: "/product/detail-14"
     },
     {
+        id: 115,
         title: "Áo thun Dinosaur 15",
         price: '190000',
         image01: product_03_image_01,
@@ -184,9 +215,11 @@ const products = [
         categorySlug: "ao-thun",
         colors: ["red", "blue"],
         slug: "ao-thun-dinosaur-15",
-        size: ["xl"]
+        size: ["xl"],
+        path: "/product/detail-15"
     },
     {
+        id: 115,
         title: "Áo somi dài tay 16",
         price: '194000',
         image01: product_08_image_01,
@@ -195,8 +228,11 @@ const products = [
         colors: ["blue", "black"],
         slug: "ao-somi-dai-tay-16",
         size: ["m", "xl"]
+        ,
+        path: "/product/detail-16"
     },
     {
+        id: 117,
         title: "Áo somi tay dài 17",
         price: '194000',
         image01: product_09_image_01,
@@ -205,8 +241,11 @@ const products = [
         colors: ["white", "blue"],
         slug: "ao-somi-tay-dai-17",
         size: ["s", "l", "xl"]
+        ,
+        path: "/product/detail-17"
     },
     {
+        id: 118,
         title: "Quần jean phong cách 18",
         price: '194000',
         image01: product_10_image_01,
@@ -214,7 +253,9 @@ const products = [
         categorySlug: "quan-jean",
         colors: ["blue", "black"],
         slug: "quan-jean-phong-cach-18",
-        size: ["s", "m", "l", "xl"]
+        size: ["s", "m", "l", "xl"],
+        path: "/product/detail-18"
+
     },
     // 18 products
 ]
