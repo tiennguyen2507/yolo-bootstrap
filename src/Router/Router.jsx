@@ -10,7 +10,7 @@ import Voucher from '../Pages/Voucher'
 const Router = () => {
     return (
         <Switch>
-            <Route path ='yolo-bootstrap/' exact component={Home} />
+            <Route path ='/' exact component={Home} />
             <Route path ='/product/:slug' component={Products} />
             <Route path ='/product/'    component={Products} />
             <Route path ='/cart' component={Card} />
