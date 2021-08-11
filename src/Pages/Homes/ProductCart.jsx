@@ -14,9 +14,9 @@ const ProductCart = () => {
         <div>
             <div className='productCart'>
                 <Container className='productCart__container' >
-                    <div className="productCart__title">
+                    {/* <div className="productCart__title">
                         <h1>Tất cả sản phẩm</h1>
-                    </div>
+                    </div> */}
                     <Row >
                         {data.map((value, index) => (
                             <Col xs={12} sm={6} md={6} lg={3} className='productCart__col' key={index}>

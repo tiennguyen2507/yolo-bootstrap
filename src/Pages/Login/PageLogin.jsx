@@ -1,14 +1,32 @@
 import React, { useState } from 'react'
 import Alert from '../../components/Alert'
 
-const PageLogin = () => {
+
+const PageLogin = props => {
+    const [activeAlert01, setactiveAlert01] = useState('')
     const [account, setaccount] = useState('')
     const [pass, setpass] = useState('')
+    const [titleAlert,settitleAlert]= useState('')
 
+    const close =()=>{
+        if (activeAlert01==="") {
+            setactiveAlert01('activeAlert')
+        }else{
+            setactiveAlert01('')
+        }
+    }
+     
+
+
+    
     const login = () => {
         const login01 = localStorage.getItem('user') ? localStorage.getItem('user') : ''
         const login02 = JSON.parse(login01)
         const login03 = login02[0]
+
+        close()
+
+        
 
         if (account !== '' & pass !== "") {
             if (account === login03.account) {
@@ -23,15 +41,15 @@ const PageLogin = () => {
                     setaccount('')
                     setpass('')
 
-                    alert('Đăng nhập thành công')
-                } else { alert('mật khẩu không chính xác!!!') }
+                    settitleAlert('Đăng nhập thành công')
+                } else { settitleAlert('mật khẩu không chính xác!!!') }
 
 
-            } else { alert('tên đăng nhập không tồn tại!!!') }
+            } else {settitleAlert('tên đăng nhập không tồn tại!!!') }
 
 
 
-        } else { alert('Vui lòng điền đầy đủ thông tin') }
+        } else { settitleAlert('Vui lòng điền đầy đủ thông tin') }
 
     }
 
@@ -55,6 +73,7 @@ const PageLogin = () => {
                 <a href="hello">Quên mật khẩu?</a>
             </div>
             <button onClick={login} >Đăng nhập</button>
+            <Alert active01={activeAlert01}  funcc={()=>{close()}}  >{titleAlert}</Alert>
         </div>
     )
 }

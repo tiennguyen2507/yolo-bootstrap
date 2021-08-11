@@ -5,11 +5,12 @@ import Slides from './Homes/Slides'
 import PolicyCart from './Homes/PolicyCart'
 import Product_details from './Products/Product_details'
 
+
 document.title='Sản phẩm'
-const Products = () => {
+const Products = props => {
     
     const [state, setstate] = useState([])
-
+   
     useEffect(() => {
         
             const idLocal01 =JSON.parse(localStorage.getItem('productId'))
@@ -69,6 +70,7 @@ const Products = () => {
         <div className='product'>
             <Container className='product__container'>
                 <Row>
+                    {props.status}
                     <Col xs={12} sm={12} md={8} lg={8} className='product__left'>
                         <Row>
                             <Col xs={12} sm={12} md={12} lg={9} className='product__left__01' >
