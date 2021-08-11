@@ -69,7 +69,6 @@ const Slides = () => {
                         </div>
                     </Container>
                 </div>
-                {plusTF}
             </div>
 
         </div>
