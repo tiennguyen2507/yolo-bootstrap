@@ -45,6 +45,12 @@ const Header = () => {
                     </Col>
                     <Col xs={5} sm ={5} md={5} lg={4} >
                         <div className="header__right">
+                            <div className="header__right__item header__right__item__alert__icon">
+                                 <i className='bx bx-bell'></i>
+                                 <div className="header__right__item__alert">
+                                     <p>thông báo</p>
+                                 </div>
+                            </div>
                             <Link to='/cart'>
                                 <i className="header__menu__item bx bx-search" />
                             </Link>

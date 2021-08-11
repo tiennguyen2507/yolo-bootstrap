@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React,{ useState} from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import products from '../assets/fake-data/products'
 import Slides from './Homes/Slides'
@@ -8,17 +8,8 @@ import Product_details from './Products/Product_details'
 
 document.title='Sản phẩm'
 const Products = props => {
-    
-    const [state, setstate] = useState([])
-   
-    useEffect(() => {
-        
-            const idLocal01 =JSON.parse(localStorage.getItem('productId'))
-            const data01 =products.filter((value) => {
-                return value.id === idLocal01[0].id
-         })
-            setstate(data01[0])
-    }, [])
+  
+  
     const idLocal01 = JSON.parse(localStorage.getItem('productId'))
     const data01 = products.filter((value) => {
         return value.id === idLocal01[0].id
